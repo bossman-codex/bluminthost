@@ -17,6 +17,8 @@
       rel="stylesheet"
       type="text/css"
       id="bootstrap" />
+      <link rel="icon" type="image/png" href="/favicon.png"/>
+<link rel="icon" type="image/png" href="https://example.com/favicon.png"/>
     <link href="css/mdb.min.css" rel="stylesheet" type="text/css" id="mdb" />
     <link href="css/plugins.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
@@ -48,7 +50,7 @@
             <div class="topbar-right">
               <div class="topbar-widget">
                 <a href="#"
-                  ><i class="fa fa-envelope"></i>support@BlumintHost.com</a
+                  ><i class="fa fa-envelope"></i>support@bluminthost.com</a
                 >
               </div>
             </div>
@@ -137,7 +139,7 @@
                                       src="images/svg-blue/server-2-svgrepo-com.svg"
                                       alt="" />
                                     <div class="d-inner">
-                                      <h4>VPS Hosting</h4>
+                                      <h4>Managed Services</h4>
                                       For power and flexibility you need.
                                     </div>
                                   </a>
@@ -424,7 +426,11 @@
                 </div>
                 <div class="de-flex-col">
                   <div class="menu_side_area">
-                    <a href="login.html" class="btn-main">SignUp</a>
+                    <a href="login.html" class="btn-main">Register</a>
+                    <span id="menu-btn"></span>
+                  </div>
+                  <div class="menu_side_area">
+                    <a href="login.html" class="btn-main">Log In</a>
                     <span id="menu-btn"></span>
                   </div>
                 </div>
@@ -448,7 +454,7 @@
                 <div class="spacer-single"></div>
                 <h1 class="very-big wow fadeInUp">
                   Best <span class="id-color">hosting</span> and
-                  <span class="id-color">domain</span> for your
+                  <span class="id-color">domain</span> for your </br>
                   <span class="clearfix d-lg-none d-block"></span>
                   <span class="typed-strings">
                     <p>business.</p>
@@ -541,7 +547,7 @@
                 <a class="box-icon s2 mb20" href="hosting-vps.html">
                   <img src="images/svg-blue/server-2-svgrepo-com.svg" alt="" />
                   <div class="d-inner">
-                    <h4>VPS Hosting</h4>
+                    <h4>Managed Services</h4>
                     For power and flexibility you need.
                   </div>
                 </a>
@@ -744,62 +750,70 @@
             </div>
           </div>
         </section>
-        <section id="section-steps" class="no-top">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 offset-lg-3 text-center">
-                <h5 class="s2">Easy Steps</h5>
+
+        <section>
+          <div class=" text-center">
+            <h5 class="s2">Easy Steps</h5>
                 <h2>How It Works</h2>
-                <p class="lead">
-                  Don't let slow hosting services cost you valuable clients. Choose our hosting and domain solutions to provide a 
-                  seamless experience for your website visitors. Start by selecting a plan, choosing a domain, logging in or 
-                  registering, and making the payment. Let us take care of your hosting needs so you can focus on growing your 
-                  business. Get started now and unlock the potential of your online presence.
-                </p>
-                <div class="spacer-20"></div>
-              </div>
-              <div class="col-md-12 wow fadeInUp text-center" >
-                <div class="container-timeline">
-                  <ul>
-                    <li>
-                      <h4>Select Plan</h4>
-                      <p>
-                        Start by browsing through the hosting plans available on our website. We offer a range of packages tailored to 
-                        meet the specific needs of your business. Consider factors such as storage space, bandwidth, and additional 
-                        features to find the plan that best suits your requirements.
-                      </p>
-                    </li>
-                    <li>
-                      <h4>Choose Domain</h4>
-                      <p>
-                        Once you've selected a hosting plan, it's time to choose a domain name for your website. A domain name is the 
-                        address that people will use to access your site (e.g., www.yourbusiness.com). You can search for available 
-                        domain names using our domain registration service. Select a domain that represents your brand and is easy 
-                        for your customers to remember.
-                      </p>
-                    </li>
-                    <li>
-                      <h4>Login/Register</h4>
-                      <p>
-                        To proceed with your purchase, you'll need to create an account on our hosting website. If you're a new user, 
-                        click on the registration link and provide the required information, including your name, email address, and 
-                        password. If you're an existing customer, simply log in to your account.
-                      </p>
-                    </li>
-                    <li>
-                      <h4>Make Payment</h4>
-                      <p>
-                        Once you're logged in, you'll be directed to the payment page. Here, you can securely enter your payment 
-                        details to complete the transaction. We support various payment methods, including credit/debit cards,
-                        PayPal, and other popular options. Rest assured that our payment process is safe and protected.
-                      </p>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
           </div>
-        </section>
+          
+  <div class="container d-flex justify-content-center">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3" id="compare">
+      <div class="col">
+        <div class="compare-box d-flex flex-column align-items-center">
+          <img src="images/image1.png" style="padding: 15px 0;" alt="Image 1" class="box-image" />
+          <h4 class="compare-title">Web Hosting</h4>
+          <p class="compare-text">Our web hosting packages are designed with market-leading features and UK-based customer support to give you everything you need.</p>
+          <button class="compare-btn">Learn more</button>
+        </div>
+      </div>
+      <div class="col">
+        <div class="compare-box d-flex flex-column align-items-center">
+          <img src="images/image2.png" style="padding: 15px 0;" alt="Image 2" class="box-image" />
+          <h4 class="compare-title">Global CDN</h4>
+          <p class="compare-text">Our Content Delivery Network boosts website speed and availability worldwide, using the same tech as major cloud providers, and it's  free on purchase</p>
+          <button class="compare-btn">Learn more</button>
+        </div>
+      </div>
+      <!-- Repeat the above code for the remaining boxes -->
+      <div class="col">
+        <div class="compare-box d-flex flex-column align-items-center">
+          <img src="images/image3.png" style="padding: 15px 0;" alt="Image 6" class="box-image" />
+          <h4 class="compare-title">Secure Hosting</h4>
+          <p class="compare-text">This hosting provides enhanced security features like anti-DDoS protection, SSL certificates, a firewall, two-factor authentication, to keep your site safe.</p>
+          <button class="compare-btn">Learn more</button>
+        </div>
+      </div>
+      <div class="col">
+        <div class="compare-box d-flex flex-column align-items-center">
+          <img src="images/image1.png" style="padding: 15px 0;" alt="Image 6" class="box-image" />
+          <h4 class="compare-title">Faster Hosting</h4>
+          <p class="compare-text">Our platform offers loads of features to make your website run lightning-fast, including Global CDN, Load-Balanced Cloud Hosting and SSD Storage.</p>
+          <button class="compare-btn">Learn more</button>
+        </div>
+      </div>
+      <div class="col">
+        <div class="compare-box d-flex flex-column align-items-center">
+          <img src="images/image2.png" style="padding: 15px 0;" alt="Image 6" class="box-image" />
+          <h4 class="compare-title">Web Optimisation Suite</h4>
+          <p class="compare-text">This Web Optimization suite provides users with a range of customization features like image resizing, code magnification, and lazy loading to help optimize website load times.</p>
+          <button class="compare-btn">Learn more</button>
+        </div>
+      </div>
+      <div class="col">
+        <div class="compare-box d-flex flex-column align-items-center">
+          <img src="images/image3.png" style="padding: 15px 0;" alt="Image 6" class="box-image" />
+          <h4 class="compare-title">Large Mailbox Storage</h4>
+          <p class="compare-text">We provide 10 GB of storage, giving you more space than many of the most popular web hosting services in the UK. No need to worry about storage space!
+          </p>
+          <button class="compare-btn">Learn more</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+        
+        
         <section id="section-locations" class="no-top no-bottom">
           <div class="container">
             <div class="row">
@@ -1102,7 +1116,7 @@
                   support. We provide best hosting solutions for your hosting
                   needs. Our clients from personal to corporate. Our data center
                   are all over the world to ensure your website is always up.
-                  You can choose shared hosting, vps hosting or cloud hosting.
+                  You can choose shared hosting, Managed Services or cloud hosting.
                   You can also be hosting reseller here. Happy hosting with us.
                 </p>
               </a>
@@ -1134,7 +1148,7 @@
                     <h5>Hosting</h5>
                     <ul>
                       <li><a href="#">Web Hosting</a></li>
-                      <li><a href="#">VPS Hosting</a></li>
+                      <li><a href="#">Managed Services</a></li>
                       <li><a href="#">Cloud Hosting</a></li>
                       <li><a href="#">WordPress Hosting</a></li>
                       <li><a href="#">Email Hosting</a></li>
@@ -1196,8 +1210,7 @@
                     <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
                     <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
                     <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
-                    <a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
-                    <a href="#"><i class="fa fa-rss fa-lg"></i></a>
+                    <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
                   </div>
                 </div>
               </div>
@@ -1211,7 +1224,7 @@
                 <div class="de-flex">
                   <div class="de-flex-col">
                     <a href="index.html">
-                      Copyright 2023 - Hostco by Designesia
+                      Copyright 2023 - BlumintHost
                     </a>
                   </div>
                   <ul class="menu-simple">
