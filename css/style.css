@@ -650,7 +650,18 @@ header .header-col.mid .social-icons {
     position: relative;
 }
 .compare-text{
-    width: 200px;
+    margin: 0px 20px;
+    text-align: center;
+}
+
+.compare-text > p {
+    color: #7E8494;
+text-align: center;
+font-family: Inter;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 138.462% */
 }
 
 .compare-box {
@@ -663,6 +674,7 @@ header .header-col.mid .social-icons {
     flex-direction: column;
     align-items: center;
     align-self: stretch;
+    height: 320px;
 }
   .compare-btn {
     background-color: transparent;
@@ -964,6 +976,18 @@ header:not(.header-mobile) #mainmenu>li:hover ul.mega {
     height: auto;
 }
 
+.menu-item-btn{
+    background-color: #4362f8;
+text-align: center;
+border-radius: 8px;
+padding: 5px 20px;
+color: white;
+margin: 15px 0px;
+margin-left: 40px;
+margin-top: 25px;
+border: none;
+}
+
 /* menu toggle for mobile */
 
 #menu-btn {
@@ -1047,9 +1071,10 @@ section {
     position: relative;
 }
 
-#content.zebra section:nth-child(even){ 
+/* #content.zebra section:nth-child(even){ 
     background: #fcfcfc;
-}
+} */
+
 
 section:not(.relative) {}
 
@@ -3133,7 +3158,7 @@ a.btn-sc img{
 
 a.btn-line,
 a.btn-line:hover{
-    background: none;
+    /* background: none; */
     color: #35404e;
     border: solid 2px rgba(0, 0, 0, .1);
 }
@@ -6449,7 +6474,7 @@ header.smaller{
 
 
 .accordion-section-title {
-    color: #35404e;
+    color: #fff;
     width: 100%;
     padding: 15px 0;
     cursor: poInter;
@@ -6460,7 +6485,7 @@ header.smaller{
     transition: all linear 0.5s;
     text-decoration: none;
     font-weight: 600;
-    background: #ffffff;
+    background: #101224;
     overflow: none;
     border-bottom: solid 1px #dddddd;
 }
@@ -8113,6 +8138,15 @@ a.btn-right {
 }
 
 @media all and (max-width: 768px) {
+    .menu-item-btn{
+        background-color: #0076FF;
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px 12px;
+    color: white;
+    margin: 15px 0px;
+    }
+
     .all-timelines::before {
         right: unset;
         top: 0;
@@ -9205,6 +9239,7 @@ img.img-rounded {
     background: #ffffff;
     margin: 3px;
     padding: 5px 0;
+    height: 50px;
 }
 
 .label {
@@ -9503,7 +9538,7 @@ blockquote.s1:before {
     font-weight: bold;
     font-size: 48px;
     margin-bottom: 30px;
-    color: #161C2D;
+    color: white;
     letter-spacing: -3px;
 }
 
@@ -11194,7 +11229,7 @@ body.dark-scheme::-webkit-scrollbar-track,#de_modal::-webkit-scrollbar-track {
     font-size: 26px;
 }
 .box-url .tld-domain{
-    color: #161C2D;
+    color: #ffffff;
     margin-bottom: 20px;
     font-size: 20px;
     font-weight: bold;
@@ -11209,6 +11244,7 @@ body.dark-scheme::-webkit-scrollbar-track,#de_modal::-webkit-scrollbar-track {
     font-size: 10px;
 }
 .box-url p.tld-price{
+    color: white;
     font-size: 14px;
     font-weight: bold;
 }
@@ -12153,6 +12189,7 @@ p.intro {
 
 .no-top {
     padding-top: 0 !important;
+   
 }
 
 .no-margin {
@@ -13295,6 +13332,10 @@ a.read_more i {
     border: none;
 }
 
+.tbtn{
+    background-color: #3B64F9;
+}
+
 .typed-strings p {
     position: absolute;
 }
@@ -13585,6 +13626,7 @@ a.read_more i {
 .switch-set {
     font-weight: 500;
     direction: ltr !important;
+    margin-top: 25px;
 }
 
 .dark-scheme .switch{
@@ -13709,7 +13751,7 @@ a.read_more i {
 .box-highlight .content {
     margin: 5px;
     padding: 20px;
-    background: #ffffff;
+    background: #101224;
 }
 
 .box-highlight .content,
@@ -15953,6 +15995,16 @@ img {
 
 
 @media(min-width:980px) and (max-width: 1199px) {
+
+    .menu-item-btn{
+        background-color: #0076FF;
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px 12px;
+    color: white;
+    margin: 15px 0px;
+    }
+
     #mainmenu li a:after {
         margin-left: 15px;
     }
@@ -15977,6 +16029,14 @@ img {
     /* ================================================== */
 
 @media (min-width: 768px) and (max-width: 979px) {    
+    .menu-item-btn{
+        background-color: #0076FF;
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px 12px;
+    color: white;
+    margin: 15px 0px;
+    }
     .slider_text {
         padding-top: 0px;
     }
@@ -16866,6 +16926,15 @@ img {
     .profile_follow {
         margin-top: 40px;
         width: 100%;
+    }
+
+    .menu-item-btn{
+        background-color: #0076FF;
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px 12px;
+    color: white;
+    margin: 15px 0px;
     }
 
     .menu_side_area {
